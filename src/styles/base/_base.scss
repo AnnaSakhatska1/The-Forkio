@@ -1,0 +1,15 @@
+@import "reset";
+@import "typography";
+@import "colors";
+
+.heading {
+  @extend %heading-text;
+  color: $smoky;
+  text-align: center;
+
+  &--white {
+    @extend %heading-text;
+    color: $white;
+    text-align: center;
+  }
+}

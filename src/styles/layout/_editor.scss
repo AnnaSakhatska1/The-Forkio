@@ -1,0 +1,78 @@
+.forkio-editor {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__btn {
+        align-self: center;
+        font-size: $font-18;
+        position: relative;
+        padding: 13px 29px;
+        top: -50%;
+        transform: translate( 0, -50%);
+        @include breakpoint(md-up) {
+            padding: 23px 61px;
+        }
+    }
+    &__signature {
+        font-size: $font-14;
+        color: $osloGray;
+        margin-bottom: 13px;
+        text-align: center;
+        @include breakpoint(md-up) {
+            margin-bottom: 19px;
+        }
+    }
+    &__content {
+        align-items: center;
+        margin-bottom: 36px;
+        @include breakpoint(md-only) {
+            max-width: 689px;
+            margin-bottom: 24px;
+        }
+        @include breakpoint(lg-only) {
+            max-width: 906px;
+            margin-bottom: 13px;
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: $font-26;
+        color: $smoky;
+        text-transform: uppercase;
+        text-align: center;
+        @include breakpoint(md-only) {
+            font-size: $font-42;
+        }
+        @include breakpoint(lg-only) {
+            font-size: $font-54;
+        }
+    }
+    &__text {
+        font-family: $lato-font;
+        display: flex;
+        text-align: center;
+        font-size: $font-14;
+        color: $mineShaft;
+        margin: 27px auto 36px;
+        @include breakpoint(md-only) {
+            font-size: $font-21;
+        }
+        @include breakpoint(lg-only) {
+            font-size: $font-21;
+        }
+    }
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 88px;
+        @include breakpoint(md-only) {
+            margin-bottom: 98px;
+        }
+        @include breakpoint(lg-only) {
+            margin-bottom: 70px;
+        }
+    }
+}

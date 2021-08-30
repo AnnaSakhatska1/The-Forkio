@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover .logo__img {
+    filter: brightness(0) invert(1);
+  }
+
+  &__title {
+    display: none;
+    @include breakpoint(md-up) {
+      display: block;
+      margin-left: 17px;
+      font-weight: bold;
+      font-size: $font-24;
+      color: $main-color;
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover .logo__title {
+    color: $white;
+  }
+}
