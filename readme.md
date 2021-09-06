@@ -1,6 +1,6 @@
 Групповой проект.
 
-Сверстать макет [макет](https://www.figma.com/file/9lLwBJciU4yjDZBSnqqXSS/Forkio?node-id=0%3A1)
+Сверстать [макет](https://www.figma.com/file/9lLwBJciU4yjDZBSnqqXSS/Forkio?node-id=0%3A1)
 
 Список использованных технологий: html, scss, js, gulp, методология BEM.
 
