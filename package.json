@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irynaMatlayeva/forkio.git"
+    "url": "git+https://github.com/AnnaSakhatska1/The-Forkio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irynaMatlayeva/forkio/issues"
+    "url": "https://github.com/AnnaSakhatska1/The-Forkio/issues"
   },
-  "homepage": "https://github.com/irynaMatlayeva/forkio#readme",
+  "homepage": "https://github.com/AnnaSakhatska1/The-Forkio#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
